@@ -10,7 +10,7 @@ fetch("https://jsonplaceholder.typicode.com/albums")
       let li = document.createElement("li");
       li.className = "album_title";
       list.append(li);
-      list.append(element.title);
+      li.append(element.title);
       
       
     });
